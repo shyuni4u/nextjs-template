@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "Bash(npm run lint)",
+      "Bash(npm run lint:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm test)",
+      "Bash(npm test:*)",
+      "Bash(mkdir:*)",
+      "Bash(cp:*)",
+      "Bash(rm:*)",
+      "Bash(timeout 10 npm run start:dev)",
+      "mcp__supabase__execute_sql",
+      "mcp__supabase__apply_migration",
+      "Bash(mv:*)",
+      "Bash(gh pr view:*)",
+      "Bash(gh api:*)",
+      "Bash(npm run typecheck:*)",
+      "Bash(npm run:*)",
+      "mcp__supabase__list_branches",
+      "Bash(node:*)",
+      "Bash(npx create-next-app:*)",
+      "Bash(npm install)",
+      "Bash(npm install:*)",
+      "Bash(npx tailwindcss init:*)",
+      "mcp__ide__getDiagnostics",
+      "Bash(curl:*)",
+      "Bash(move chat v1chat)",
+      "Bash(find:*)",
+      "Bash(grep:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npx shadcn@latest add:*)",
+      "mcp__supabase__list_tables",
+      "mcp__supabase__list_migrations",
+      "mcp__supabase__get_logs",
+      "Bash(npx eslint:*)",
+      "Bash(rg:*)"
+    ],
+    "additionalDirectories": [
+      "C:\\c\\Users\\shyuniz",
+      "C:\\c\\Users\\shyuniz\\Desktop\\wonderers"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "supabase"
+  ]
+}
